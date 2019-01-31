@@ -1,3 +1,21 @@
 .main-content {
   margin: 4rem 1.5rem;
 }
+.top-navigation button,
+.btn {
+  margin-right: 0.5rem;
+  background-color: #cae4fb;
+  font: inherit;
+  border: 1px solid #eef6fd;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
+
+.top-navigation button:hover,
+.top-navigation button:active,
+.btn:hover,
+.btn:active {
+  background-color: #7bbbf3;
+  border: 1px solid #7bbbf3;
+}
